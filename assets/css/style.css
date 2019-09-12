@@ -1,0 +1,67 @@
+h1 {
+    color: white;
+    margin: 0 auto;
+    padding: 25px;
+    font-size: 100px;
+}
+
+.card {
+    width: 950px;
+    margin: auto;
+    font-size: 25px;
+    background-color: blanchedalmond;
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 1.75;
+}
+
+.randomNumber {
+    background-color: lightgreen;
+    color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 75px;
+    text-align: center;
+}
+
+.winsLosses {
+    background-color: aqua;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.btn {
+    padding: 60px
+}
+
+.btn1 {
+    background: url("/assets/images/purplegem.png") no-repeat center;
+}
+.btn2 {
+    background: url("/assets/images/bluegem.png") no-repeat center;
+}
+.btn3 {
+    background: url("/assets/images/orangegem.png") no-repeat center;
+}
+.btn4 {
+    background: url("/assets/images/pinkgem.png") no-repeat center;
+}
+
+.totalText {
+    color: aliceblue;
+    background-color: cornflowerblue;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.totalScore {
+    color: aliceblue;
+    background-color: cornflowerblue;
+    font-size: 75px;
+    font-weight: bold;
+    text-align: center;
+    height: 175px;
+}
