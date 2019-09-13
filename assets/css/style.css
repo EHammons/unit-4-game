@@ -1,35 +1,33 @@
 h1 {
     color: white;
     margin: 0 auto;
-    padding: 25px;
-    font-size: 100px;
+    padding: 15px;
+    font-size: 50px;
 }
 
-.card {
-    width: 950px;
-    margin: auto;
-    font-size: 25px;
+.gameRules {
+    padding: 15px;
+    font-size: 15px;
     background-color: blanchedalmond;
     color: green;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    line-height: 1.75;
 }
 
 .randomNumber {
     background-color: lightgreen;
     color: blueviolet;
     font-weight: bolder;
-    font-size: 75px;
+    font-size: 40px;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 .winsLosses {
     background-color: aqua;
-    padding: 20px;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 600;
+    padding: 5px 0 0 20px;
 }
 
 .btn {
@@ -52,16 +50,16 @@ h1 {
 .totalText {
     color: aliceblue;
     background-color: cornflowerblue;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 600;
-    padding: 20px;
+    padding: 15px 0 0 15px;
 }
 
 .totalScore {
     color: aliceblue;
     background-color: cornflowerblue;
-    font-size: 75px;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
-    height: 175px;
+    height: 90px;
 }

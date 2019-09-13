@@ -16,25 +16,27 @@
     <nav class="navbar navbar-dark bg-primary">
         <h1>CRYSTAL COLLECTOR</h1>
     </nav>
-    <div class="card">
-        <div class="card-body">
-          You will be given a random number at the start of the game.
-          <br><br>
-          There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
-          <br><br>
-          You win the game by matching your toal score to the random number.
-          <br>
-          You lose the game if your total score goes above the random number.
-          <br><br>
-          The value of each crystal is hidden from you until you click on it.
-          <br><br>
-          Each time the game starts, the game will change the values of each crystal.
-        </div>
-    </div>
+
     <div class="container">
         <div class="row">
-            <div class="col-5 offset-1 randomNumber"><span id="targetNumber"></span></div>
-            <div class="col-5 winsLosses">
+            <div class="col-8 offset-2 gameRules">
+                You will be given a random number at the start of the game.
+                <br><br>
+                There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+                <br><br>
+                You win the game by matching your toal score to the random number.
+                <br>
+                You lose the game if your total score goes above the random number.
+                <br><br>
+                The value of each crystal is hidden from you until you click on it.
+                <br><br>
+                Each time the game starts, the game will change the values of each crystal.
+            </div>
+        </div>
+            
+        <div class="row">
+            <div class="col-4 offset-2 randomNumber"><span id="targetNumber"></span></div>
+            <div class="col-4 winsLosses">
                 <p class="wins">Wins: <span id = "winsCount"></span></p>
                 <p class="losses">Losses: <span id = "lossesCount"></span></p>
             </div>
@@ -54,10 +56,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-10 offset-1 totalText">Total Score:</div>
+            <div class="col-8 offset-2 totalText">Total Score:</div>
         </div>
         <div class="row">
-            <div class="col-10 offset-1 totalScore"><span id = "scoreTotal"></span></div>
+            <div class="col-8 offset-2 totalScore"><span id = "scoreTotal"></span></div>
         </div>
     
     </div>
