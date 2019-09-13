@@ -19,10 +19,10 @@ h1 {
 .randomNumber {
     background-color: lightgreen;
     color: blueviolet;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: 75px;
     text-align: center;
+    padding: 15px;
 }
 
 .winsLosses {
