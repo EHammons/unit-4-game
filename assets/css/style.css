@@ -37,16 +37,16 @@ h1 {
 }
 
 .btn1 {
-    background: url("/assets/images/purplegem.png") no-repeat center;
+    background: url(../images/purplegem.png) no-repeat center;
 }
 .btn2 {
-    background: url("/assets/images/bluegem.png") no-repeat center;
+    background: url(../images/bluegem.png) no-repeat center;
 }
 .btn3 {
-    background: url("/assets/images/orangegem.png") no-repeat center;
+    background: url(../images/orangegem.png) no-repeat center;
 }
 .btn4 {
-    background: url("/assets/images/pinkgem.png") no-repeat center;
+    background: url(../images/pinkgem.png) no-repeat center;
 }
 
 .totalText {
